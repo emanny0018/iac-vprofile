@@ -20,7 +20,7 @@ env:
   EKS_CLUSTER: vprofile-eks  
  
 jobs:
-   terraform:
+  terraform:
      name: "APPLY terraform code changes"
      runs on: ubuntu-latest
      defaults: 
@@ -28,7 +28,7 @@ jobs:
          shell:
          working-directory: ./terraform
 
-      steps:
+    steps:
         - name: checkout source code
           uses: actions/checkout@v4
           
