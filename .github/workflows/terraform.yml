@@ -20,6 +20,7 @@ env:
   AWS_REGION: us-east-1
   EKS_CLUSTER: vprofile-eks
 
+  
 jobs:
   terraform:
     name: "APPLY terraform code changes"
